@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.container {
+  padding: 5px 0px 30px 430px;
+  background-color: white;
+}
+input{
+  width: 50%;
+  padding: 15px;
+  margin: 0px 10px 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0px;
+  border: none;
+  width: 15%;
+  opacity: 0.9;
+}
+</style>
+</head>
+<body>
+<center><u><h3 style="color:blue">Register Here</h3></u></center>
+<form action="./Registration" method="post">
+<div class="container">
+<h5>User Name: </h5><input type="text" name="name">
+<h5>Email Id: </h5><input type="email" name="email_id"><br><br>
+<input type="submit" class="registerbtn" value="register">
+<h5>Already have an account?<a href="./Login.html">  Sign in</a></h5>
+</div>
+</form>
+</body>
+</html>
